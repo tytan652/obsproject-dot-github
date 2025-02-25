@@ -3,7 +3,7 @@ description: Report a bug or crash for OBS Studio Flatpak
 body:
 - type: markdown
   attributes:
-    value: >-
+    value: |
       > [!IMPORTANT]  
       > **This form is for reporting bugs for OBS Studio Flatpak!**
       > 
