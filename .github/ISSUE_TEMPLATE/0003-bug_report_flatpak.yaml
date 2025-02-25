@@ -7,7 +7,7 @@ body:
       > [!IMPORTANT]  
       > **This form is for reporting bugs for OBS Studio Flatpak!**
       > 
-      > If the report is not for a official released build of OBS Studio Flatpak or not filled properly, the issue will be closed as it.
+      > If the report is not for a official released build of OBS Studio Flatpak or not filled properly, the issue will be closed as is.
 - type: input
   id: distribution
   attributes:
