@@ -1,0 +1,62 @@
+name: Flatpak Bug report
+description: Report a bug or crash for OBS Studio Flatpak
+body:
+- type: markdown
+  attributes:
+    value: >-
+      > [!IMPORTANT]  
+      > **This form is for reporting bugs for OBS Studio Flatpak!**
+      > 
+      > If the report is not for a official released build of OBS Studio Flatpak or not filled properly, the issue will be closed as it.
+- type: input
+  id: distribution
+  attributes:
+  label: OS or Distribution
+  description: Which OS or distribution are running on with the Flatpak ?
+  placeholder: e.g., SteamOS, Linux Mint 22
+  validations:
+    required: true
+- type: input
+  id: obs_log_url
+  attributes:
+    label: OBS Studio Log URL
+    description: Please provide the obsproject.com URL (from Help menu > Log Files > Upload Current/Previous Log File) to the OBS log file where this issue occurred. Bug reports without a log file will get closed without further notice.
+  validations:
+    required: true
+- type: textarea
+  id: expected_behavior
+  attributes:
+    label: Expected Behavior
+    description: "What did you expect to happen?"
+  validations:
+    required: true
+- type: textarea
+  id: current_behavior
+  attributes:
+    label: Current Behavior
+    description: "What actually happened?"
+  validations:
+    required: true
+- type: textarea
+  id: steps_to_reproduce
+  attributes:
+    label: Steps to Reproduce
+    description: "How do you trigger this bug? Please walk us through it step by step."
+    placeholder: |
+      1.
+      2.
+      3.
+      ...
+    value: |
+      1.
+      2.
+      3.
+      ...
+  validations:
+    required: true
+- type: textarea
+  id: additional_notes
+  attributes:
+    label: Anything else we should know?
+  validations:
+    required: false
