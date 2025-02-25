@@ -11,9 +11,9 @@ body:
 - type: input
   id: distribution
   attributes:
-  label: OS or Distribution
-  description: Which OS or distribution are running on with the Flatpak ?
-  placeholder: e.g., SteamOS, Linux Mint 22
+    label: OS or Distribution
+    description: Which OS or distribution are running on with the Flatpak ?
+    placeholder: e.g., SteamOS, Linux Mint 22
   validations:
     required: true
 - type: input
